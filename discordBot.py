@@ -34,4 +34,4 @@ async def embed(ctx):
 
     await ctx.send(embed=embed)
 
-bot.run('OTM5MDg0NDQ5MTg0OTAzMTc5.YfzsjA.zxsZJ-YUP8UVFzKR3K1prMTtPLI')
+bot.run('my tocken')
