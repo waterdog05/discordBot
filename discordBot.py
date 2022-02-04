@@ -18,9 +18,9 @@ async def hello(ctx):
 async def bear(ctx, *, msg):
     BEAR = "고민재"
     if msg == BEAR:
-        await ctx.send("{0}은 곰입니다".format(msg))
+        await ctx.send("{0}는 곰입니다".format(msg))
     else:
-        await ctx.send("{0}은 곰이 아닙니다".format(msg))
+        await ctx.send("{0}은/ 곰이 아닙니다".format(msg))
 
 @bot.command()
 async def embed(ctx):
